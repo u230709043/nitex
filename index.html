@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- WHATSAPP VE SOSYAL MEDYA ÖNİZLEME ETİKETLERİ (OPEN GRAPH) -->
+    <meta property="og:title" content="Nitex | Endüstriyel Hijyen ve Ambalaj Çözümleri" />
+    <meta property="og:description" content="Industrial Hygiene and Packaging Solutions" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nitex2026.vercel.app/index.html" />
+    <meta property="og:image" content="https://nitex2026.vercel.app/img/about-bg.png" />
+    <meta property="og:site_name" content="Nitex" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>NITEX - Endüstriyel Hijyen ve Ambalaj Çözümleri</title>
+    <!-- Google Fonts üzerinden şık bir yazı tipi ekleyelim -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- SİTE TEPE BÖLÜMÜ (HEADER) -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <!-- LOGO ALANI -->
+            <div class="logo-area">
+                <a href="#">
+                    <span class="logo-title">NITEX</span>
+                    <span class="logo-subtitle">Profesyonel Çözümler</span>
+                </a>
+            </div>
+
+            <!-- DİL SEÇİM MENÜSÜ -->
+            <div class="lang-dropdown">
+                <button class="lang-btn">
+                    <!-- Dünya İkonu (Modern SVG) -->
+                    <svg class="world-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18zm0 0a15.95 15.95 0 01-4-10c0-5.523 1.79-10 4-10m0 20a15.95 15.95 0 004-10c0-5.523-1.79-10-4-10M3 9h18M3 15h18" />
+                    </svg>
+                    <span class="current-lang">Türkçe</span>
+                    <svg class="chevron-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </button>
+                <div class="lang-options">
+                    <a href="index.html" class="lang-item active">Türkçe</a>
+                    <a href="en-index.html" class="lang-item">English</a>
+                </div>
+            </div>
+
+            <!-- MOBİL MENÜ BUTONU (HAMBURGER) -->
+            <button class="hamburger" id="hamburger-menu" aria-label="Menüyü Aç">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- NAVİGASYON ALANI -->
+            <nav class="main-nav" id="main-navigation">
+                <ul class="nav-list">
+                    <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                    <li><a href="#urunler" class="nav-link">Ürünlerimiz</a></li>
+                    <li><a href="#oem" class="nav-link">Özel Üretim</a></li>
+                    <li><a href="#kalite" class="nav-link">Kalite Standartları</a></li>
+                    <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- ARKA PLAN RESİMLİ HAKKIMIZDA BÖLÜMÜ -->
+    <!-- ========================================== -->
+    <section id="hakkimizda" class="about-section-bg">
+        <div class="about-bg-wrapper">
+            <img src="img/about-bg.png" alt="NITEX Fabrika Arka Plan" class="about-bg-image">
+            <div class="about-bg-overlay"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-content-box">
+                <h2 class="section-title">NITEX HAKKINDA</h2>
+                <p class="about-lead">NITEX, hijyen ve ambalaj sektöründe kaliteli, dayanıklı girişimci ve çevre dostu ürünleri müşterilerine sunan güvenilir bir markadır.</p>
+                <p class="about-desc">Modern üretim tesisleri ve deneyimli kadrolu iş ortaklarımızla müşteri odaklı hizmet anlayışımızla yerel ve uluslararası pazarlarda çözüm ortağınız olmaktan gurur duyuyoruz.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon-wrapper">
+                        <svg class="value-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.562.562 0 0 0-.183.563l1.112 5.343c.105.503-.43.89-.88.636l-4.826-2.543a.562.562 0 0 0-.52 0l-4.826 2.543c-.45.253-.985-.133-.88-.636l1.112-5.343a.562.562 0 0 0-.183-.563L2.014 11.38c-.381-.325-.179-.948.321-.988l5.518-.442a.562.562 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Yüksek Kalite</h3>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon-wrapper">
+                        <svg class="value-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 0 1 2.008 1.24l.885 1.77a2.25 2.25 0 0 0 2.007 1.24h1.98a2.25 2.25 0 0 0 2.007-1.24l.885-1.77a2.25 2.25 0 0 1 2.007-1.24h3.86m-18 0h18m-18 0V6.75A2.25 2.25 0 0 1 5.25 4.5h13.5A2.25 2.25 0 0 1 21 6.75V13.5m-18 0V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18v-4.5M12 5.25v2.25m-3-1.125h6" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Geniş Ürün Yelpazesi</h3>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon-wrapper">
+                        <svg class="value-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Zamanında Teslimat</h3>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon-wrapper">
+                        <svg class="value-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Müşteri Memnuniyeti</h3>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon-wrapper">
+                        <svg class="value-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M3 12h18M12 3c-1.333 1.667-2 3.833-2 6.5s.667 4.833 2 6.5m0-13c1.333 1.667 2 3.833 2 6.5s-.667 4.833-2 6.5" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Çevre Dostu</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="content-spacer"></div>
+
+    <!-- ========================================== -->
+    <!-- ÜRÜNLER BÖLÜMÜ (PRODUCTS SHOWROOM) -->
+    <!-- ========================================== -->
+    <section id="urunler" class="products-section">
+        <div class="products-container">
+            <div class="products-header">
+                <h2 class="section-title text-center">ÜRÜNLERİMİZ</h2>
+                <p class="section-subtitle">Profesyonel ambalaj ve endüstriyel hijyen grubu ürün yelpazemiz</p>
+            </div>
+
+            <div class="product-tabs">
+                <button class="tab-btn active" onclick="openProduct(event, 'cop-torbasi')">Çöp Torbaları</button>
+                <button class="tab-btn" onclick="openProduct(event, 'kraft-canta')">Kraft Çantalar</button>
+                <button class="tab-btn" onclick="openProduct(event, 'nitril-eldiven')">Nitril Eldivenler</button>
+                <button class="tab-btn" onclick="openProduct(event, 'latex-eldiven')">Latex Eldivenler</button>
+                <button class="tab-btn" onclick="openProduct(event, 'atlet-poset')">Atlet Poşetler</button>
+                <button class="tab-btn" onclick="openProduct(event, 'ekolojik-urunler')">Ekolojik Ürünler</button>
+            </div>
+
+            <!-- SEKME 1: ÇÖP TORBALARI -->
+            <div id="cop-torbasi" class="tab-content active">
+                <div class="product-grid">
+                    <div class="product-info-side">
+                        <h3>Endüstriyel Çöp Torbaları</h3>
+                        <ul class="product-specs">
+                            <li><i class="spec-check">✓</i> Yüksek dayanıklılık</li>
+                            <li><i class="spec-check">✓</i> Sızdırmaz yapı</li>
+                            <li><i class="spec-check">✓</i> Kolay açılır kullanım</li>
+                            <li><i class="spec-check">✓</i> Farklı renk ve ölçü seçenekleri</li>
+                            <li><i class="spec-check">✓</i> Ev, ofis, sanayi ve profesyonel kullanım</li>
+                        </ul>
+                        <div class="color-options-box">
+                            <h4>RENK SEÇENEKLERİ</h4>
+                            <div class="colors-row">
+                                <span class="color-badge"><span class="color-dot black"></span> Siyah</span>
+                                <span class="color-badge"><span class="color-dot blue"></span> Mavi</span>
+                                <span class="color-badge"><span class="color-dot green"></span> Yeşil</span>
+                                <span class="color-badge"><span class="color-dot gray"></span> Gri</span>
+                                <span class="color-badge"><span class="color-dot white"></span> Beyaz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-image-side">
+                        <div class="product-slider" id="slider-cop-torbasi">
+                            <div class="slider-wrapper">
+                                <img class="slide active" src="img/cop-torbasi-1.png" alt="NITEX Çöp Torbaları">
+                                <img class="slide" src="img/cop-torbasi-2.png" alt="NITEX Çöp Torbaları">
+                            </div>
+                            <button class="slider-arrow prev" onclick="moveSlide('slider-cop-torbasi', -1)">&#10094;</button>
+                            <button class="slider-arrow next" onclick="moveSlide('slider-cop-torbasi', 1)">&#10095;</button>
+                            <div class="slider-dots">
+                                <span class="dot active" onclick="setSlide('slider-cop-torbasi', 0)"></span>
+                                <span class="dot" onclick="setSlide('slider-cop-torbasi', 1)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="tech-table">
+                        <thead>
+                            <tr><th>ÜRÜN KODU</th><th>EBAT (cm)</th><th>MİKRON</th><th>RENK</th><th>PAKET</th><th>KOLİ</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>NTX-01</td><td>55x60</td><td>15</td><td>Siyah</td><td>25 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-02</td><td>65x80</td><td>18</td><td>Siyah</td><td>25 Adet</td><td>16 Paket</td></tr>
+                            <tr><td>NTX-03</td><td>80x110</td><td>22</td><td>Siyah</td><td>10 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-04</td><td>90x120</td><td>25</td><td>Siyah</td><td>10 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-05</td><td>100x150</td><td>30</td><td>Siyah</td><td>10 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-06</td><td>70x110</td><td>25</td><td>Mavi</td><td>10 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-07</td><td>90x110</td><td>30</td><td>Mavi</td><td>10 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-08</td><td>90x110</td><td>30</td><td>Yeşil</td><td>10 Adet</td><td>20 Paket</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-note">* Özel ölçü ve renk seçenekleri için bizimle iletişime geçiniz.</p>
+            </div>
+
+            <!-- SEKME 2: KRAFT ÇANTALAR -->
+            <div id="kraft-canta" class="tab-content">
+                <div class="product-grid">
+                    <div class="product-info-side">
+                        <h3>Kraft Çantalar</h3>
+                        <ul class="product-specs">
+                            <li><i class="spec-check">✓</i> Dayanıklı kraft kağıt</li>
+                            <li><i class="spec-check">✓</i> Geri dönüştürülebilir</li>
+                            <li><i class="spec-check">✓</i> Gıda ile temasa uygun</li>
+                            <li><i class="spec-check">✓</i> Farklı ebat ve gramaj seçenekleri</li>
+                            <li><i class="spec-check">✓</i> Baskılı veya baskısız üretim imkanı</li>
+                        </ul>
+                        <div class="badges-row">
+                            <span class="tech-badge">🍽️ Gıda Temasına Uygun</span>
+                            <span class="tech-badge">♻️ Geri Dönüştürülebilir</span>
+                            <span class="tech-badge">💪 Dayanıklı Yapı</span>
+                            <span class="tech-badge">🖨️ Baskıya Uygun</span>
+                        </div>
+                    </div>
+                    <div class="product-image-side">
+                        <div class="product-slider" id="slider-kraft-canta">
+                            <div class="slider-wrapper">
+                                <img class="slide active" src="img/kraft-canta-1.png" alt="NITEX Kraft Çantalar">
+                                <img class="slide" src="img/kraft-canta-2.png" alt="NITEX Baskılı Kraft Çantalar">
+                            </div>
+                            <button class="slider-arrow prev" onclick="moveSlide('slider-kraft-canta', -1)">&#10094;</button>
+                            <button class="slider-arrow next" onclick="moveSlide('slider-kraft-canta', 1)">&#10095;</button>
+                            <div class="slider-dots">
+                                <span class="dot active" onclick="setSlide('slider-kraft-canta', 0)"></span>
+                                <span class="dot" onclick="setSlide('slider-kraft-canta', 1)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="tech-table">
+                        <thead>
+                            <tr><th>ÜRÜN KODU</th><th>EBAT (cm)</th><th>GRAMAJ</th><th>RENK</th><th>KOLİ ADEDİ</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>NTX-K01</td><td>18x08x24</td><td>80 gr</td><td>Kraft Kahverengi</td><td>250 Adet</td></tr>
+                            <tr><td>NTX-K02</td><td>22x10x28</td><td>90 gr</td><td>Kraft Kahverengi</td><td>250 Adet</td></tr>
+                            <tr><td>NTX-K03</td><td>25x11x32</td><td>100 gr</td><td>Kraft Kahverengi</td><td>250 Adet</td></tr>
+                            <tr><td>NTX-K04</td><td>32x12x42</td><td>110 gr</td><td>Kraft Kahverengi</td><td>200 Adet</td></tr>
+                            <tr><td>NTX-K05</td><td>18x08x24</td><td>100 gr</td><td>Beyaz</td><td>250 Adet</td></tr>
+                            <tr><td>NTX-K06</td><td>25x11x32</td><td>110 gr</td><td>Beyaz</td><td>200 Adet</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-note">* Özel ölçü, gramaj ve baskı seçenekleri için bizimle iletişime geçiniz.</p>
+            </div>
+
+            <!-- SEKME 3: NİTRİL ELDİVENLER -->
+            <div id="nitril-eldiven" class="tab-content">
+                <div class="product-grid">
+                    <div class="product-info-side">
+                        <h3>Nitril Eldivenler (Pudrasız)</h3>
+                        <ul class="product-specs">
+                            <li><i class="spec-check">✓</i> Pudrasız nitril</li>
+                            <li><i class="spec-check">✓</i> Lateks içermez</li>
+                            <li><i class="spec-check">✓</i> Parmak uçlarında mikro doku</li>
+                            <li><i class="spec-check">✓</i> Yüksek hassasiyet</li>
+                            <li><i class="spec-check">✓</i> Gıda ve endüstriyel kullanıma uygun</li>
+                            <li><i class="spec-check">✓</i> Alerji riskini minimize eder</li>
+                        </ul>
+                        <div class="badges-row">
+                            <span class="tech-badge">🚫 Pudrasız</span>
+                            <span class="tech-badge">🧪 AQL 1.5</span>
+                            <span class="tech-badge">🍽️ Gıda Temasına Uygun</span>
+                            <span class="tech-badge">🖐️ Tek Kullanımlık</span>
+                        </div>
+                    </div>
+                    <div class="product-image-side">
+                        <div class="product-slider" id="slider-nitril-eldiven">
+                            <div class="slider-wrapper">
+                                <img class="slide active" src="img/nitril-eldiven-1.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-2.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-3.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-4.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-5.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-6.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-7.png" alt="NITEX Nitril Eldivenler">
+                                <img class="slide" src="img/nitril-eldiven-8.png" alt="NITEX Nitril Eldivenler">
+                            </div>
+                            <button class="slider-arrow prev" onclick="moveSlide('slider-nitril-eldiven', -1)">&#10094;</button>
+                            <button class="slider-arrow next" onclick="moveSlide('slider-nitril-eldiven', 1)">&#10095;</button>
+                            <div class="slider-dots">
+                                <span class="dot active" onclick="setSlide('slider-nitril-eldiven', 0)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 1)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 2)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 3)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 4)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 5)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 6)"></span>
+                                <span class="dot" onclick="setSlide('slider-nitril-eldiven', 7)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="tech-table">
+                        <thead>
+                            <tr><th>ÜRÜN KODU</th><th>TİP</th><th>BEDEN</th><th>RENK</th><th>KUTU</th><th>KOLİ</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>NTX-NP-S</td><td>Pudrasız</td><td>S</td><td>Mavi</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-NP-M</td><td>Pudrasız</td><td>M</td><td>Mavi</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-NP-L</td><td>Pudrasız</td><td>L</td><td>Mavi</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-NP-XL</td><td>Pudrasız</td><td>XL</td><td>Mavi</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SEKME 4: LATEX ELDİVENLER -->
+            <div id="latex-eldiven" class="tab-content">
+                <div class="product-grid">
+                    <div class="product-info-side">
+                        <h3>Lateks Eldivenler</h3>
+                        <ul class="product-specs">
+                            <li><i class="spec-check">✓</i> Esnek ogüvenli konforlu yapı</li>
+                            <li><i class="spec-check">✓</i> Pudralı / Pudrasız seçenek</li>
+                            <li><i class="spec-check">✓</i> Yüksek elastikiyet</li>
+                            <li><i class="spec-check">✓</i> Gıda, temizlik ogüvenli genel kullanım</li>
+                            <li><i class="spec-check">✓</i> Tek kullanımlık profesyonel kullanım</li>
+                        </ul>
+                        <div class="badges-row">
+                            <span class="tech-badge">📦 Pudralı/Pudrasız</span>
+                            <span class="tech-badge">⚡ Yüksek Elastikiyet</span>
+                            <span class="tech-badge">🧼 Temizliğe Uygun</span>
+                            <span class="tech-badge">🖐️ Tek Kullanımlık</span>
+                        </div>
+                    </div>
+                    <div class="product-image-side">
+                        <div class="product-img-holder">
+                            <img src="img/latex-eldiven.png" alt="NITEX Latex Eldivenler">
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="tech-table">
+                        <thead>
+                            <tr><th>ÜRÜN KODU</th><th>TİP</th><th>BEDEN</th><th>RENK</th><th>KUTU</th><th>KOLİ</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>NTX-LP-S</td><td>Pudralı</td><td>S</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LP-M</td><td>Pudralı</td><td>M</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LP-L</td><td>Pudralı</td><td>L</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LP-XL</td><td>Pudralı</td><td>XL</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LNP-S</td><td>Pudrasız</td><td>S</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LNP-M</td><td>Pudrasız</td><td>M</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LNP-L</td><td>Pudrasız</td><td>L</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                            <tr><td>NTX-LNP-XL</td><td>Pudrasız</td><td>XL</td><td>Beyaz</td><td>100 Adet</td><td>10 Kutu</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SEKME 5: ATLET POŞETLER -->
+            <div id="atlet-poset" class="tab-content">
+                <div class="product-grid">
+                    <div class="product-info-side">
+                        <h3>Atlet Poşetler</h3>
+                        <ul class="product-specs">
+                            <li><i class="spec-check">✓</i> Yüksek taşıma kapasitesi</li>
+                            <li><i class="spec-check">✓</i> Dayanıklı ve esnek yapı</li>
+                            <li><i class="spec-check">✓</i> Farklı mikron seçenekleri</li>
+                            <li><i class="spec-check">✓</i> Baskılı veya baskısız</li>
+                            <li><i class="spec-check">✓</i> Market, manav ogüvenli mağazalar için ideal</li>
+                        </ul>
+                    </div>
+                    <div class="product-image-side">
+                        <div class="product-slider" id="slider-atlet-poset">
+                            <div class="slider-wrapper">
+                                <img class="slide active" src="img/atlet-poset-1.png" alt="NITEX Atlet Poşet 1">
+                                <img class="slide" src="img/atlet-poset-2.png" alt="NITEX Atlet Poşet 2">
+                            </div>
+                            <button class="slider-arrow prev" onclick="moveSlide('slider-atlet-poset', -1)">&#10094;</button>
+                            <button class="slider-arrow next" onclick="moveSlide('slider-atlet-poset', 1)">&#10095;</button>
+                            <div class="slider-dots">
+                                <span class="dot active" onclick="setSlide('slider-atlet-poset', 0)"></span>
+                                <span class="dot" onclick="setSlide('slider-atlet-poset', 1)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="tech-table">
+                        <thead>
+                            <tr><th>ÜRÜN KODU</th><th>EBAT (cm)</th><th>MİKRON</th><th>RENK</th><th>PAKET</th><th>KOLİ</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>NTX-A01</td><td>22x40</td><td>8</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-A02</td><td>26x45</td><td>10</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-A03</td><td>30x50</td><td>12</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-A04</td><td>35x60</td><td>14</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-A05</td><td>40x70</td><td>16</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                            <tr><td>NTX-A06</td><td>50x80</td><td>20</td><td>Beyaz</td><td>50 Adet</td><td>20 Paket</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-note">* Özel ölçü, mikron, baskı ve renk seçenekleri için bizimle iletişime geçiniz.</p>
+            </div>
+
+            <!-- SEKME 6: EKOLOJİK ÜRÜNLER (27 ÜRÜN EKSİKSİZ) -->
+            <div id="ekolojik-urunler" class="tab-content">
+                <div class="products-header">
+                    <h3 class="section-title text-center" style="color: var(--primary-color); display: inline-block;">Ekolojik Ürünler</h3>
+                    <p class="section-subtitle">Doğa dostu ekolojik ambalaj ürün yelpazemiz</p>   
+                </div>
+                <div class="table-responsive" style="margin-top: 30px;">
+                    <table class="tech-table eco-table">
+                        <thead>
+                            <tr>
+                                <th>ÜRÜN RESMİ</th>
+                                <th>ÜRÜN KODU</th>
+                                <th>İNTERNET ÜRÜN KODU</th>
+                                <th>FİRMA ÜRÜN KODU</th>
+                                <th>ÜRÜN ADI (TR)</th>
+                                <th>ÜRÜN BR. AĞIRLIK (g)</th>
+                                <th>PAKET İÇİ ADET</th>
+                                <th>KOLİ İÇİ PAKET</th>
+                                <th>KOLİ İÇİ ADET</th>
+                                <th>ÜRÜN ÖLÇÜLERİ (mm)</th>
+                                <th>KOLİ ÖLÇÜLERİ (cm)</th>
+                                <th>KOLİ METREKÜP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="eco-img-td"><img src="img/urun-1.png" alt="NITEX Bardak 200 cc" class="table-product-img"></td><td><strong>TF0116</strong></td><td>B200</td><td>PR-GLS-0011</td><td>Bardak 200 cc</td><td>7.00</td><td>45</td><td>16</td><td>720</td><td>76*78</td><td>48.0*32.5*31.0</td><td>0.048</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-2.png" alt="NITEX Bardak 250 cc" class="table-product-img"></td><td><strong>TF0117</strong></td><td>B250</td><td>CG-B250-0117</td><td>Bardak 250 cc</td><td>7.50</td><td>45</td><td>16</td><td>720</td><td>77*100</td><td>40.0*32.5*31.0</td><td>0.040</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-3.png" alt="NITEX Bardak 350 cc" class="table-product-img"></td><td><strong>TF0118</strong></td><td>B350</td><td>CG-B350-0118</td><td>Bardak 350 cc</td><td>12.00</td><td>45</td><td>9</td><td>405</td><td>94*118</td><td>40.0*32.5*31.0</td><td>0.040</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-4.png" alt="NITEX Bardak 500 cc" class="table-product-img"></td><td><strong>TF0120</strong></td><td>B500</td><td>CG-B500-0120</td><td>Bardak 500 cc</td><td>14.00</td><td>45</td><td>9</td><td>405</td><td>94*125</td><td>48.0*32.5*31.0</td><td>0.048</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-5.png" alt="NITEX Tabak 21 cm" class="table-product-img"></td><td><strong>TF0533</strong></td><td>T100</td><td>PR-PLT-0011</td><td>Tabak 21 cm</td><td>22.00</td><td>50</td><td>10</td><td>500</td><td>210*20</td><td>44.5*22.0*28.0</td><td>0.027</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-6.png" alt="NITEX 3 Bölmeli Tabak 26 cm" class="table-product-img"></td><td><strong>TF1027</strong></td><td>T500</td><td>PR-PLT-0027</td><td>3 Bölmeli Tabak 26 cm</td><td>31.00</td><td>25</td><td>16</td><td>400</td><td>260*30</td><td>58.5*28.5*24.0</td><td>0.040</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-7.png" alt="NITEX Kase 200 cc" class="table-product-img"></td><td><strong>TF0409</strong></td><td>K200</td><td>PR-BWL-0020</td><td>Kase 200 cc</td><td>9.00</td><td>20</td><td>24</td><td>480</td><td>107*30</td><td>48.0*33.5*35.0</td><td>0.048</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-8.png" alt="NITEX Kase 300 cc" class="table-product-img"></td><td><strong>TF0403</strong></td><td>K300</td><td>PR-BWL-0030</td><td>Kase 300 cc</td><td>11.00</td><td>20</td><td>24</td><td>480</td><td>107*48</td><td>48.0*33.5*35.0</td><td>0.048</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-9.png" alt="NITEX Kase 400 cc" class="table-product-img"></td><td><strong>TF0406</strong></td><td>K400</td><td>PR-BWL-0450</td><td>Kase 400 cc</td><td>18.00</td><td>20</td><td>8</td><td>160</td><td>127*49</td><td>46.0*44.0*37.0</td><td>0.081</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-10.png" alt="NITEX Kase 500 cc" class="table-product-img"></td><td><strong>TF0405</strong></td><td>K400</td><td>PR-BWL-0550</td><td>Kase 500 cc</td><td>20.00</td><td>20</td><td>8</td><td>160</td><td>127*49</td><td>46.0*44.0*37.0</td><td>0.081</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-11.png" alt="NITEX Kase 750 cc" class="table-product-img"></td><td><strong>TF2433</strong></td><td>KV750</td><td>PR-BWL-0750</td><td>Kase 750 cc</td><td>22.00</td><td>20</td><td>6</td><td>120</td><td>127*49</td><td>46.0*44.0*37.0</td><td>0.081</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-12.png" alt="NITEX Kapak 105" class="table-product-img"></td><td><strong>TF0604</strong></td><td>-</td><td>-</td><td>Kapak 105 (200 & 300 cc Kase İçin)</td><td>7.00</td><td>20</td><td>24</td><td>480</td><td>112*8</td><td>44.5*22.0*28.0</td><td>0.027</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-13.png" alt="NITEX Kapak 125" class="table-product-img"></td><td><strong>TF0606</strong></td><td>-</td><td>-</td><td>Kapak 125 (400 & 500 cc Kase İçin)</td><td>10.00</td><td>20</td><td>8</td><td>160</td><td>133*10</td><td>44.5*22.0*28.0</td><td>0.027</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-14.png" alt="NITEX Kapaklı Hamburger Kabı" class="table-product-img"></td><td><strong>TF0327</strong></td><td>KK100</td><td>CG-KK100-0327</td><td>Kapaklı Hamburger Kabı</td><td>58.00</td><td>50</td><td>4</td><td>200</td><td>211*195*44</td><td>46.0*44.0*37.0</td><td>0.075</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-15.png" alt="NITEX 3 Bölmeli Kapaklı Kap" class="table-product-img"></td><td><strong>TF0328</strong></td><td>KK200</td><td>CG-KK200-0328</td><td>3 Bölmeli Kapaklı Kap</td><td>58.00</td><td>50</td><td>4</td><td>200</td><td>211*195*49</td><td>46.0*44.0*37.0</td><td>0.075</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-16.png" alt="NITEX Kapaklı Derin Kap 1000 cc" class="table-product-img"></td><td><strong>TF0223</strong></td><td>KK1000</td><td>PR-CNT-0010</td><td>Kapaklı Derin Kap 1000 cc</td><td>45.00</td><td>50</td><td>4</td><td>200</td><td>218*140*50</td><td>48.0*33.5*35</td><td>0.056</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-17.png" alt="NITEX 2 Bölmeli Kare Tabldot" class="table-product-img"></td><td><strong>TF0325</strong></td><td>TB200</td><td>CG-TB200-0325</td><td>2 Bölmeli Kare Tabldot</td><td>31.00</td><td>25</td><td>6</td><td>150</td><td>263*184*36</td><td>58.5*28.5*24.0</td><td>0.040</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-18.png" alt="NITEX 3 Bölmeli Kare Tabldot" class="table-product-img"></td><td><strong>TF0326</strong></td><td>TB300</td><td>CG-TB300-0326</td><td>3 Bölmeli Kare Tabldot</td><td>31.00</td><td>25</td><td>6</td><td>150</td><td>263*184*36</td><td>58.5*28.5*24.0</td><td>0.040</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-19.png" alt="NITEX Çatal" class="table-product-img"></td><td><strong>TF0916</strong></td><td>S110</td><td>PR-FRG-0010</td><td>Çatal</td><td>5.40</td><td>100</td><td>16</td><td>1600</td><td>169</td><td>34.5*31.5*16.5</td><td>0.018</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-20.png" alt="NITEX Yemek Kaşığı" class="table-product-img"></td><td><strong>TF0819</strong></td><td>S220</td><td>PR-SPN-0011</td><td>Yemek Kaşığı</td><td>7.20</td><td>100</td><td>12</td><td>1200</td><td>168</td><td>34.5*31.5*16.5</td><td>0.018</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-21.png" alt="NITEX Tatlı/Çay Kaşığı" class="table-product-img"></td><td><strong>TF0832</strong></td><td>S210</td><td>PR-SPN-0021</td><td>Tatlı/Çay Kaşığı</td><td>3.10</td><td>100</td><td>25</td><td>2500</td><td>117</td><td>34.5*31.5*16.5</td><td>0.018</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-22.png" alt="NITEX Bıçak" class="table-product-img"></td><td><strong>TF1208</strong></td><td>S300</td><td>PR-KNF-0010</td><td>Bıçak</td><td>5.20</td><td>100</td><td>16</td><td>1600</td><td>161</td><td>34.5*31.5*16.5</td><td>0.018</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-23.png" alt="NITEX Pipet 6*24cm" class="table-product-img"></td><td><strong>ST0702</strong></td><td>ST240</td><td>PR-SRW-0024</td><td>Pipet 6*24cm</td><td>~1.85</td><td>50</td><td>90</td><td>4500</td><td>240*6</td><td>600*400*300</td><td>0.072</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-24.png" alt="NITEX Kağıt Sargılı Pipet 6*24cm" class="table-product-img"></td><td><strong>ST0703</strong></td><td>ST240</td><td>PR-SRW-0025</td><td>Kağıt Sargılı Pipet 6*24cm</td><td>~1.85</td><td>50</td><td>60</td><td>3000</td><td>240*6</td><td>600*400*300</td><td>0.072</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-25.png" alt="NITEX Pipet 8*24cm" class="table-product-img"></td><td><strong>ST0704</strong></td><td>ST240</td><td>PR-SRW-0026</td><td>Pipet 8*24cm</td><td>~1.85</td><td>50</td><td>70</td><td>3500</td><td>240*6</td><td>600*400*300</td><td>0.072</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-26.png" alt="NITEX Kağıt Sargılı Pipet 8*24cm" class="table-product-img"></td><td><strong>ST0705</strong></td><td>ST240</td><td>PR-SRW-0027</td><td>Kağıt Sargılı Pipet 8*24cm</td><td>~1.85</td><td>50</td><td>50</td><td>2500</td><td>240*6</td><td>600*400*300</td><td>0.072</td></tr>
+                            <tr><td class="eco-img-td"><img src="img/urun-27.png" alt="NITEX Poşet 40*25cm" class="table-product-img"></td><td><strong>PS0001</strong></td><td>PS0001</td><td>PR-BAG-0001</td><td>Poşet 40*25cm</td><td>7.50</td><td>100</td><td>10</td><td>1000</td><td>40*25</td><td>600*400*400</td><td>0.017</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- ÖZEL ÜRETİM / OEM BÖLÜMÜ -->
+    <!-- ========================================== -->
+    <section id="oem" class="oem-section">
+        <div class="oem-container">
+            <div class="oem-header">
+                <h2 class="section-title">ÖZEL ÜRETİM / OEM</h2>
+                <p class="oem-subtitle">İhtiyacınıza özel üretim çözümleri sunuyoruz.</p>
+            </div>
+            <div class="oem-infographic-wrapper">
+                <div class="oem-side-features left-features">
+                    <div class="oem-feature-item">
+                        <div class="oem-text"><h4>ÖZEL ÖLÇÜ ÜRETİM</h4></div>
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v16.5m16.5-16.5v16.5M4.5 9h15M4.5 15h15" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="oem-feature-item">
+                        <div class="oem-text"><h4>PROFESYONEL TEDARİK ÇÖZÜMLERİ</h4></div>
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94-3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="oem-feature-item">
+                        <div class="oem-text"><h4>OEM & PRIVATE LABEL</h4></div>
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="oem-center-shield">
+                    <div class="shield-content">
+                        <h3>NITEX</h3>
+                        <span class="shield-line"></span>
+                        <p class="shield-highlight">OEM</p>
+                        <p class="shield-desc">ÇÖZÜMLERİ</p>
+                    </div>
+                </div>
+                <div class="oem-side-features right-features">
+                    <div class="oem-feature-item">
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1-1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 5.043-.025m-1.622-3.395a15.997 15.997 0 0 0 3.388-1.62m-5.043-.025A15.994 15.994 0 0 1 11 5.044m3.42 3.42a15.995 15.995 0 0 0-5.043-.025m1.622 3.395a15.997 15.997 0 0 0-3.388 1.62m0 0a3 3 0 1 0 5.78 1.128 2.25 2.25 0 0 1 2.4 2.245 4.5 4.5 0 0 0-8.4-2.245c0 .399.078.78.22 1.128Zm0 0a15.997 15.997 0 0 1-3.388-1.62M12 18.75a6 6 0 0 0 6-6H6a6 6 0 0 0 6 6Z" />
+                            </svg>
+                        </div>
+                        <div class="oem-text"><h4>ÖZEL RENK SEÇENEKLERİ</h4></div>
+                    </div>
+                    <div class="oem-feature-item">
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316A2.192 2.192 0 0 0 13.784 4H10.216c-.445 0-.87.138-1.226.395L6.827 6.175ZM12 15.75a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM20.25 9h-.008v.008h.008V9Z" />
+                            </svg>
+                        </div>
+                        <div class="oem-text"><h4>LOGO BASKI UYGULAMASI</h4></div>
+                    </div>
+                    <div class="oem-feature-item">
+                        <div class="oem-icon-box">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 21l8.904-4.473M9.813 15.904L14.5 13.5M9.813 15.904L5.22 13.16M17.904 16.527L18 21l-8.187-4.473M17.904 16.527l-4.793-2.315M17.904 16.527l4.876-2.438M6.078 8.473L5.25 3l8.187 4.473M6.078 8.473L10.5 11.25M6.078 8.473L1.5 6.035M14.207 14.213L18.75 8.25m-4.543 5.963L9.5 11.25m4.707-.037l4.543-2.963m-4.543 2.963L14.5 13.5m-5-2.25L5.25 3m4.25 8.25L5.22 13.16M9.5 11.25L14.5 7.5" />
+                            </svg>
+                        </div>
+                        <div class="oem-text"><h4>ÖZEL AMBALAJ TASARIMI</h4></div>
+                    </div>
+                </div>
+            </div>
+            <div class="oem-products-showcase">
+                <img src="img/oem-products.png" alt="NITEX Özel Üretim" class="oem-footer-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- KALİTE STANDARTLARI BÖLÜMÜ -->
+    <!-- ========================================== -->
+    <section id="kalite" class="quality-section">
+        <div class="quality-container">
+            <div class="quality-header">
+                <h2 class="section-title">KALİTE ANLAYIŞIMIZ</h2>
+                <p class="quality-lead">NITEX olarak üretimimizin her aşamasında kaliteyi ön planda tutuyoruz. Uluslararası standartlara uygun hammaddeler kullanarak, hijyenik koşullarda üretim yapıyor ogüvenilir ürünler sunuyoruz.</p>
+            </div>
+            <div class="quality-badges-grid">
+                <div class="quality-badge-card">
+                    <div class="quality-circle-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                        </svg>
+                    </div>
+                    <h3>KALİTELİ<br>HAMMADDE</h3>
+                </div>
+                <div class="quality-badge-card">
+                    <div class="quality-circle-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.385-.93.78-.165.398-.143.854.107 1.204l.527.738a1.125 1.125 0 01-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527a1.125 1.125 0 01-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.385.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.774-.773a1.125 1.125 0 011.449-.12l.738.527c.35.25.806.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3>MODERN<br>ÜRETİM</h3>
+                </div>
+                <div class="quality-badge-card">
+                    <div class="quality-circle-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                        </svg>
+                    </div>
+                    <h3>KALİTE<br>KONTROL</h3>
+                </div>
+                <div class="quality-badge-card">
+                    <div class="quality-circle-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                        </svg>
+                    </div>
+                    <h3>MÜŞTERİ<br>MEMNUNİYETİ</h3>
+                </div>
+                <div class="quality-badge-card">
+                    <div class="quality-circle-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.281m5.94 2.28l-2.284 5.94" />
+                        </svg>
+                    </div>
+                    <h3>SÜREKLİ<br>GELİŞİM</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- FOOTER / İLETİŞİM ALANI -->
+    <!-- ========================================== -->
+    <footer id="iletisim" class="site-footer">
+        <div class="footer-split-container">
+            <div class="footer-info-block">
+                <div class="footer-info-content">
+                    <h2 class="footer-title">İLETİŞİM</h2>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Adres</strong>
+                            <p>Mustafa Kemal Atatürk Bulvarı,<br>Aosb Çiğli, İzmir</p>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Telefon</strong>
+                            <p><a href="tel:05325125874">+90 532 512 58 74</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>E-posta</strong>
+                            <p><a href="mailto:yasarhakann@gmail.com">yasarhakann@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-image-block">
+                <img src="img/footer-banner.jpg" alt="NITEX Üretim ve Lojistik" class="footer-banner-img" onerror="this.src='https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200'">
+            </div>
+        </div>
+        <div class="footer-bottom-bar">
+            <p>&copy; 2026 NITEX. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

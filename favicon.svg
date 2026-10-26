@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+    <!-- Arka Plan: Yuvarlatılmış Kare Kurumsal Koyu Mavi -->
+    <rect width="32" height="32" rx="8" fill="#0F1E36"/>
+    
+    <!-- Ambalaj, Üretim ve Hijyeni Temsil Eden Dinamik Modern Geometrik 'N' ve Kalkan Figürü -->
+    <path d="M9 8h4.5l5.5 10V8h4v16h-4.5L13 14v10H9V8z" fill="#00A8FF"/>
+    
+    <!-- Parlak Teknolojik Hijyen Noktası -->
+    <circle cx="23" cy="8" r="2.5" fill="#FFFFFF"/>
+</svg>
